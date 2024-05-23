@@ -1,0 +1,167 @@
+/* Estilos personalizados */
+  body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 140vh;
+    margin: 0;
+  }
+
+  .container h2{
+    margin-top: 100%;
+  }
+  .table{
+    margin-top: 10%;
+    margin-bottom: 30%;
+  }
+  .logomasco{
+    border-radius:45%;
+  }
+  h2{
+    text-align: center;
+  }
+  /* Estilos para el carrito de compras */
+  #cart {
+    margin-bottom: 20px;
+  }
+
+  .fondo{
+    background-color: #fff;
+  }
+  nav a{
+    position: relative;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 40px;
+  }
+  
+  ul li a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #c52964;
+    transition: 0.3s;
+  }
+  
+  ul li a:hover::before{
+    width: 100%;
+  }
+  nav{
+    background-color: #265291;
+  }
+  nav a:hover {
+    color: #d9dafede; /* Cambio de color al pasar el ratón */
+  }
+  nav ul li a:hover {
+    color: #d9dafede; /* Cambio de color al pasar el ratón */
+  }
+.creditos a{
+  color: #fff;
+}
+.categoria-alimento{
+  text-decoration: underline;
+}
+
+  /* Estilos para el botón de pagar */
+  #checkoutBtn {
+    margin-top: 26px;
+    margin-bottom: 10px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cart-icon {
+    width: 24px; /* Ajusta el tamaño según tus necesidades */
+    height: 24px;
+  }
+  
+  /*Estilos para carrusel*/
+  .d-item{
+    height: 500px;
+  }
+
+  .d-img{
+    height: 95%;
+    width: 100%;
+    object-fit: contain;
+    filter: brightness(0.6);
+  }
+  
+  .card-body{
+    background-color: white;
+  }
+
+  .card-text{
+    color: #000000;
+  }
+  .card-title{
+    color: #000000;
+  }
+
+ footer{
+  background-color: #aa34ae;
+  color: #fff;
+  padding: 80px 0px;
+  text-align: center;
+ }
+
+ .contenedor {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.footer-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.footer-row:last-child {
+  border-bottom: none;
+}
+
+.footer-contenido h4 {
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+
+.footer-contenido p {
+  margin-bottom: 10px;
+}
+
+.creditos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.creditos img {
+  margin-right: 10px;
+}
+
+.creditos a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.footer-contenido a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 5px;
+}
+
+
+.footer-contenido a:hover {
+  text-decoration: underline;
+}
